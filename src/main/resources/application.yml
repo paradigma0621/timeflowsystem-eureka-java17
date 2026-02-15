@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eurekaserver
+
+server:
+  # porta de convenção do eureka
+  port: 8761
+
+eureka:
+  client:
+    # configuração de cliente - se colocar false: não é para ele se autoregistrar
+    register-with-eureka: false
+    # se colocar false: quer dizer que quem busca o registro de microsserviços é o gateway (para fazer o roteamento/load balancer)
+    fetch-registry: false
