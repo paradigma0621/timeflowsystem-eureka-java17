@@ -9,6 +9,7 @@ http://localhost:8761/
 ## Microsservices
 [Core](https://github.com/paradigma0621/timeflowsystem-core-java21) <br>
 [Report](https://github.com/paradigma0621/timeflowsystem-report-java21) <br>
+[Gateway](https://github.com/paradigma0621/timeflowsystem-gateway-java17) <br>
 
 ## Frontend
 To be accessed by the  "Timeflow Frontend" [React 18.3 App project](https://github.com/paradigma0621/timeflowsystem-react-app)
